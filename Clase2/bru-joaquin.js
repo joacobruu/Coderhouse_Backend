@@ -7,7 +7,7 @@ class Usuario {
   };
 
   getFullName() {
-    return `${this.nombre} ${this.apellido}`;
+    return console.log(`${this.nombre} ${this.apellido}`);
   };
 
   addMascota(mascota) {
@@ -15,7 +15,7 @@ class Usuario {
   };
 
   countMascotas() {
-    return this.mascotas.length;
+    return console.log(this.mascotas.length) 
   };
 
   addBook(nombre, autor) {
@@ -27,7 +27,7 @@ class Usuario {
     this.libros.map((libro) => {
       titulos.push(libro.nombre);
     });
-    return titulos;
+    return console.log(titulos);
   };
 };
 
@@ -42,10 +42,10 @@ joaquin.addMascota('Roque');
 
 joaquin.addBook('La metamorfosis', 'Kafka');
 
-joaquin.addBook('LotR', 'Tolkien');
+joaquin.addBook('Lord of the Rings', 'Tolkien');
 
-console.log(joaquin.getFullName());
+joaquin.getFullName();
 
-console.log(joaquin.countMascotas());
+joaquin.countMascotas();
 
-console.log(joaquin.getBookNames());
+joaquin.getBookNames();
