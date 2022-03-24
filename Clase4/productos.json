@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "nombre": "Notebook",
+    "precio": 150000
+  },
+  {
+    "id": 1,
+    "nombre": "PC",
+    "precio": 145000
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado",
+    "precio": 5000
+  },
+  {
+    "id": 3,
+    "nombre": "Mouse",
+    "precio": 5000
+  },
+  {
+    "id": 4,
+    "nombre": "Auriculares",
+    "precio": 20000
+  },
+  {
+    "id": 5,
+    "nombre": "Celular",
+    "precio": 89000
+  },
+  {
+    "id": 6,
+    "nombre": "Monitor",
+    "precio": 30000
+  }
+]
