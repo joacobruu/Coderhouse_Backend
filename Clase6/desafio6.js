@@ -98,6 +98,10 @@ class Contenedor {
 
 const contenedor = new Contenedor('./productos.json');
 
+app.get(('/'), (req, res) => {
+  res.send('<a href="/productos">Productos</a>\n<a href="/productoRandom">Producto Random</a>')
+})
+
 app.get(('/productos'), async (req, res) => {
   res.send(await contenedor.getAll())
 })
