@@ -20,11 +20,6 @@
     "precio": 5000
   },
   {
-    "id": 4,
-    "nombre": "Auriculares",
-    "precio": 20000
-  },
-  {
     "id": 5,
     "nombre": "Celular",
     "precio": 89000
@@ -33,5 +28,25 @@
     "id": 6,
     "nombre": "Monitor",
     "precio": 30000
+  },
+  {
+    "id": 7,
+    "nombre": "Notebook",
+    "precio": 150000
+  },
+  {
+    "id": 8,
+    "nombre": "Notebook",
+    "precio": 150000
+  },
+  {
+    "id": 9,
+    "nombre": "Notebook",
+    "precio": 150000
+  },
+  {
+    "id": 10,
+    "nombre": "Notebook",
+    "precio": 150000
   }
 ]
